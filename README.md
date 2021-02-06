@@ -40,7 +40,9 @@ This course will utilize premade scenarios for certain classes. You'll also need
   - Download [Foxit PhantomPDF](https://www.foxitsoftware.com/downloads/). You may alternatively use Adobe Acrobat Pro DC if you have a subscription to it.
   - This lab uses your own Windows 10 VM.
 - Class-10
-  - This lab uses your own Windows 10 VM.
+  - Download [Veeam Backup & Replication Community Edition ISO file](https://www.veeam.com/virtual-machine-backup-solution-free.html) to your lab kit PC. This site requires you create an account.
+  - Download [OneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage) to your lab kit PC. This site requires you create an account.
+  - This lab uses your own Windows 10 VM. You'll need a second hard drive attached to it, or spin up another Windows 10 VM for this lab.
 - Class-11
   - Download [ops201-class11.ova](https://www.icloud.com/iclouddrive/04vOcRhmbHyt7hiCuSLkx0tLg#ops201-class10).
   - Download [EaseUS Recovery Tool](https://www.easeus.com/datarecoverywizard/free-data-recovery-software.htm).
