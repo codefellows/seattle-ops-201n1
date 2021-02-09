@@ -48,7 +48,7 @@ This course will utilize premade scenarios for certain classes. You'll also need
   - Download [EaseUS Recovery Tool](https://www.easeus.com/datarecoverywizard/free-data-recovery-software.htm).
   - Download [Darik's Boot and Nuke (DBAN) ISO file](https://sourceforge.net/projects/dban/files/dban/dban-2.3.0/dban-2.3.0_i586.iso/download).
 - Class-12
-  - Download [pfSense .iso file](https://www.pfsense.org/download/).
+  - Download [pfSense .iso file](https://www.pfsense.org/download/) to your lab kit PC. Select "AMD64 (64-bit)" from the latest stable release and save it as an ISO file.
 - Class-13
   - Download [ops201-class13.ova](https://www.icloud.com/iclouddrive/0FhZ5c8V_B5ewgqJZfkp2e-DQ#ops201-class12).
 - Class-14
