@@ -9,7 +9,7 @@ greeting="My name is $host"
 
 echo ""
 
-echo -e "What is your name?: "
+echo -e "What is thy name?: "
 read name
 
 #below is some trash, sorry!
