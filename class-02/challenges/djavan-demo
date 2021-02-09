@@ -12,6 +12,7 @@ echo ""
 echo -e "What is your name?: "
 read name
 
+#justanother comment
 echo ""
 echo "$greeting"
 echo ""
