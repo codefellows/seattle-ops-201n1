@@ -12,7 +12,7 @@ echo ""
 echo -e "What is your name?: "
 read name
 
-#below is some code
+#below is some trash
 echo ""
 echo "$greeting"
 echo ""
