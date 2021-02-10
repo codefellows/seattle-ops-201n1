@@ -14,7 +14,8 @@ host=$(hostname)
 greeting="My name is $host"
 a=$(ifconfig) 
 
-main() {
+#main
+greet() {
 echo ""
 
 echo -e "What is thy name?: "
@@ -31,8 +32,14 @@ echo ""
 
 } 
 
+netinfo() {}
+
+echo "I will now copy some information to output.txt"
+rm output.txt
 echo "$a" >> output.txt
 
-main
+}
+greet
+netinfo
 
-exit 1
+end
