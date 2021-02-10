@@ -32,7 +32,7 @@ echo ""
 
 } 
 
-netinfo() {}
+netinfo() {
 
 echo "I will now copy some information to output.txt"
 rm output.txt
