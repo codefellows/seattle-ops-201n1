@@ -1,12 +1,19 @@
 #!/bin/bash
 
-#Initial Contet - adding more content
-#More more more
+# Script Name:                  djavan-demo
+# Class Name:                   Ops 201
+# Author Name:                  Mr. Norris
+# Date of latest revision:      2/9/2021
+# Purpose:                      to demo
 
+
+
+#Declare variables
 user=$(whoami)
 host=$(hostname)
 greeting="My name is $host"
 
+main() {
 echo ""
 
 echo -e "What is thy name?: "
@@ -20,4 +27,8 @@ echo "The acount $user is logged in"
 echo ""
 echo "$name, and $user should be friends..."
 echo ""
+}
 
+main
+
+exit 1
