@@ -13,6 +13,7 @@ user=$(whoami)
 host=$(hostname)
 greeting="My name is $host"
 
+
 main() {
 echo ""
 
@@ -27,8 +28,19 @@ echo "The acount $user is logged in"
 echo ""
 echo "$name, and $user should be friends..."
 echo ""
+
 }
 
+network_info() {
+
+a=$(ifconfig) 
+
+$a > output.txt
+
+)
+
 main
+
+network_info
 
 exit 1
