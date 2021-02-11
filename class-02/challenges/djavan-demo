@@ -42,4 +42,4 @@ echo "$a" >> output.txt
 greet
 netinfo
 
-end
+#end
