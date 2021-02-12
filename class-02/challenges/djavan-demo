@@ -16,9 +16,8 @@ a=$(ifconfig)
 
 #main
 greet() {
-echo ""
 
-echo -e "What is thy name?: "
+echo -e "\nWhat is thy name?: \n"
 read name
 
 #below is some trash, sorry!
