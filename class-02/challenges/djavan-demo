@@ -12,33 +12,26 @@
 user=$(whoami)
 host=$(hostname)
 greeting="My name is $host"
-a=$(ifconfig) 
-
+a=$(ifconfig)
 #main
 greet() {
 
-echo -e "\nWhat is thy name?: \n"
-read name
+    echo -e "\nWhat is thy name?: \n"
+    read name
 
 #below is some trash, sorry!
-echo ""
-echo "$greeting"
-echo ""
-echo "The acount $user is logged in"
-echo ""
-echo "$name, and $user should be friends..."
-echo ""
-
+    echo -e "\n$greeting\n"
+    echo  -e "The acount $user is logged in\n"
+    echo -e "$name, and $user should be friends...\n"
+   
 } 
 
 netinfo() {
 
-echo "I will now copy some information to output.txt"
+echo -e "I will now copy some information to output.txt\n"
 rm output.txt
 echo "$a" >> output.txt
 
 }
 greet
 netinfo
-
-#end
