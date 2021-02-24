@@ -1,0 +1,235 @@
+- e USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.6 104352 12832 ?        Ss   Feb10   0:18 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    Feb10   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Feb10   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Feb10   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kworker/0:0H-kblockd]
+root           8  0.0  0.0      0     0 ?        I<   Feb10   0:00 [mm_percpu_wq]
+root           9  0.0  0.0      0     0 ?        S    Feb10   0:34 [ksoftirqd/0]
+root          10  0.0  0.0      0     0 ?        I    Feb10   5:54 [rcu_sched]
+root          11  0.0  0.0      0     0 ?        S    Feb10   0:07 [migration/0]
+root          12  0.0  0.0      0     0 ?        S    Feb10   0:00 [idle_inject/0]
+root          14  0.0  0.0      0     0 ?        S    Feb10   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    Feb10   0:00 [kdevtmpfs]
+root          16  0.0  0.0      0     0 ?        I<   Feb10   0:00 [netns]
+root          17  0.0  0.0      0     0 ?        S    Feb10   0:00 [rcu_tasks_kthre]
+root          18  0.0  0.0      0     0 ?        S    Feb10   0:00 [rcu_tasks_rude_]
+root          19  0.0  0.0      0     0 ?        S    Feb10   0:00 [rcu_tasks_trace]
+root          20  0.0  0.0      0     0 ?        S    Feb10   0:00 [kauditd]
+root          21  0.0  0.0      0     0 ?        S    Feb10   0:00 [khungtaskd]
+root          22  0.0  0.0      0     0 ?        S    Feb10   0:00 [oom_reaper]
+root          23  0.0  0.0      0     0 ?        I<   Feb10   0:00 [writeback]
+root          24  0.0  0.0      0     0 ?        S    Feb10   0:00 [kcompactd0]
+root          25  0.0  0.0      0     0 ?        SN   Feb10   0:00 [ksmd]
+root          26  0.0  0.0      0     0 ?        SN   Feb10   0:00 [khugepaged]
+root          72  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kintegrityd]
+root          73  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kblockd]
+root          74  0.0  0.0      0     0 ?        I<   Feb10   0:00 [blkcg_punt_bio]
+root          75  0.0  0.0      0     0 ?        I<   Feb10   0:00 [tpm_dev_wq]
+root          76  0.0  0.0      0     0 ?        I<   Feb10   0:00 [ata_sff]
+root          77  0.0  0.0      0     0 ?        I<   Feb10   0:00 [md]
+root          78  0.0  0.0      0     0 ?        I<   Feb10   0:00 [edac-poller]
+root          79  0.0  0.0      0     0 ?        I<   Feb10   0:00 [devfreq_wq]
+root          80  0.0  0.0      0     0 ?        S    Feb10   0:00 [watchdogd]
+root          82  0.0  0.0      0     0 ?        I<   Feb10   0:00 [pm_wq]
+root          84  0.0  0.0      0     0 ?        S    Feb10   0:00 [kswapd0]
+root          85  0.0  0.0      0     0 ?        S    Feb10   0:00 [ecryptfs-kthrea]
+root          87  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kthrotld]
+root          88  0.0  0.0      0     0 ?        I<   Feb10   0:00 [acpi_thermal_pm]
+root          89  0.0  0.0      0     0 ?        S    Feb10   0:00 [scsi_eh_0]
+root          90  0.0  0.0      0     0 ?        I<   Feb10   0:00 [scsi_tmf_0]
+root          91  0.0  0.0      0     0 ?        S    Feb10   0:00 [scsi_eh_1]
+root          92  0.0  0.0      0     0 ?        I<   Feb10   0:00 [scsi_tmf_1]
+root          94  0.0  0.0      0     0 ?        I<   Feb10   0:00 [vfio-irqfd-clea]
+root          96  0.0  0.0      0     0 ?        I<   Feb10   0:00 [ipv6_addrconf]
+root         105  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kstrp]
+root         108  0.0  0.0      0     0 ?        I<   Feb10   0:00 [zswap-shrink]
+root         109  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kworker/u3:0]
+root         114  0.0  0.0      0     0 ?        I<   Feb10   0:00 [charger_manager]
+root         154  0.0  0.0      0     0 ?        S    Feb10   0:00 [scsi_eh_2]
+root         158  0.0  0.0      0     0 ?        I<   Feb10   0:00 [scsi_tmf_2]
+root         160  0.0  0.0      0     0 ?        I<   Feb10   0:00 [cryptd]
+root         179  0.0  0.0      0     0 ?        I<   Feb10   0:06 [kworker/0:1H-kblockd]
+root         184  0.0  0.0      0     0 ?        S    Feb10   1:52 [irq/18-vmwgfx]
+root         194  0.0  0.0      0     0 ?        I<   Feb10   0:00 [ttm_swap]
+root         208  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kdmflush]
+root         234  0.0  0.0      0     0 ?        I<   Feb10   0:00 [raid5wq]
+root         278  0.0  0.0      0     0 ?        S    Feb10   0:01 [jbd2/dm-0-8]
+root         279  0.0  0.0      0     0 ?        I<   Feb10   0:00 [ext4-rsv-conver]
+root         350  0.0  0.8  52720 17880 ?        S<s  Feb10   0:01 /lib/systemd/systemd-journald
+root         377  0.0  0.2  22312  5508 ?        Ss   Feb10   0:01 /lib/systemd/systemd-udevd
+root         495  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kaluad]
+root         496  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kmpath_rdacd]
+root         497  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kmpathd]
+root         498  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kmpath_handlerd]
+root         499  0.0  0.9 281072 18824 ?        SLsl Feb10   1:02 /sbin/multipathd -d -s
+root         511  0.0  0.0      0     0 ?        S    Feb10   0:00 [jbd2/sda2-8]
+root         512  0.0  0.0      0     0 ?        I<   Feb10   0:00 [ext4-rsv-conver]
+root         514  0.0  0.0      0     0 ?        S<   Feb10   0:00 [loop1]
+root         515  0.0  0.0      0     0 ?        S<   Feb10   0:00 [loop2]
+systemd+     543  0.0  0.3  91384  6636 ?        Ssl  Feb10   0:01 /lib/systemd/systemd-timesyncd
+systemd+     751  0.0  0.5  25100 12120 ?        Ss   Feb10   0:01 /lib/systemd/systemd-resolved
+root         789  0.0  0.1   5552  2640 ?        Ss   Feb10   0:01 /usr/sbin/cron -f
+message+     790  0.0  0.2   8804  5304 ?        Ss   Feb10   0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         801  0.0  0.7  26960 15468 ?        Ss   Feb10   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       803  0.0  0.2 221124  4628 ?        Ssl  Feb10   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         806  0.0  0.4  19040  9344 ?        Ss   Feb10   0:02 /lib/systemd/systemd-logind
+daemon       808  0.0  0.1   3776  2212 ?        Ss   Feb10   0:00 /usr/sbin/atd -f
+root         851  0.0  0.1   5976  3448 tty1     Ss   Feb10   0:00 /bin/login -p --
+root         860  0.0  0.2 233592  5732 ?        Ssl  Feb10   0:00 /usr/libexec/polkitd --no-debug
+root         869  0.0  0.8 105124 18120 ?        Ssl  Feb10   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+django      1310  0.0  0.4  19620 10060 ?        Ss   Feb10   0:00 /lib/systemd/systemd --user
+django      1311  0.0  0.1 104416  2944 ?        S    Feb10   0:00 (sd-pam)
+django      1317  0.0  0.2   7228  5100 tty1     S+   Feb10   0:00 -bash
+root        2607  0.0  0.2  13068  5952 ?        Ss   Feb10   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+systemd+    2679  0.0  0.3  19816  6560 ?        Ss   Feb10   0:01 /lib/systemd/systemd-networkd
+root       39487  0.0  0.0      0     0 ?        S<   Feb11   0:00 [loop3]
+root       39741  0.0  0.0      0     0 ?        S<   Feb11   0:00 [loop4]
+root       39876  0.0  0.0      0     0 ?        S<   Feb11   0:00 [loop5]
+root      103356  0.0  0.3 247116  6832 ?        Ssl  Feb11   0:00 /usr/libexec/upowerd
+django    104113  0.0  0.0   2596   676 ?        S    Feb12   0:00 sh /home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/server.sh --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/django/.vscode-server/.8490d3dde47c57ba65ec40dd192d014fd2113496.token
+django    104120  0.2  5.9 1249020 121076 ?      Sl   Feb12  26:20 /home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/node /home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/out/vs/server/main.js --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/django/.vscode-server/.8490d3dde47c57ba65ec40dd192d014fd2113496.token
+root      121906  0.0  0.0      0     0 ?        S<   Feb12   0:00 [loop6]
+root      126057  0.0  0.2 236452  5696 ?        Ssl  Feb12   0:17 /usr/lib/accountsservice/accounts-daemon
+root      138099  0.0  0.0      0     0 ?        I<   Feb12   0:00 [xfsalloc]
+root      138100  0.0  0.0      0     0 ?        I<   Feb12   0:00 [xfs_mru_cache]
+root      138118  0.0  0.0      0     0 ?        S    Feb12   0:00 [jfsIO]
+root      138119  0.0  0.0      0     0 ?        S    Feb12   0:00 [jfsCommit]
+root      138120  0.0  0.0      0     0 ?        S    Feb12   0:00 [jfsSync]
+root      146443  0.0  2.1 1246796 42992 ?       Ssl  Feb12   0:42 /usr/lib/snapd/snapd
+django    652076  0.0  0.2   8228  5200 pts/6    Ss+  Feb16   0:00 /bin/bash
+root      661859  0.0  0.4  14796  8676 ?        Ss   Feb16   0:00 sshd: django [priv]
+django    661980  0.0  0.2  14928  5996 ?        S    Feb16   2:22 sshd: django@notty
+django    661981  0.0  0.1   7096  3700 ?        Ss   Feb16   0:00 -bash
+django    661986  0.0  0.1   7408  4024 ?        S    Feb16   0:01 bash
+django    662943  0.0  0.2   8228  5020 pts/7    Ss+  Feb16   0:00 /bin/bash
+django    663224  0.0  0.2   8360  5264 pts/8    Ss+  Feb16   0:00 /bin/bash
+django    663798  1.7  4.9 886580 101476 ?       Sl   Feb16 118:28 /home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/node /home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/out/vs/server/uriTransformer.js
+django    663805  0.0  1.8 786264 37520 ?        Sl   Feb16   0:09 /home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/node /home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/out/bootstrap-fork --type=watcherService
+django   1425626  0.0  0.2   8460  5500 pts/1    Ss   Feb19   0:02 /bin/bash
+root     1769044  0.0  0.0      0     0 ?        I    13:18   0:16 [kworker/0:1-cgroup_destroy]
+root     1817341  0.0  0.0      0     0 ?        I    17:57   0:00 [kworker/u2:0-events_unbound]
+root     1820369  0.1  0.0      0     0 ?        I    18:14   0:02 [kworker/0:0-events]
+root     1823820  0.0  0.0      0     0 ?        I    18:38   0:00 [kworker/u2:1-events_unbound]
+root     1824429  0.0  0.0      0     0 ?        I    18:45   0:00 [kworker/u2:2-events_power_efficient]
+django   1824589  0.0  0.0   5480   740 ?        S    18:47   0:00 sleep 180
+django   1824840  0.0  0.1   6880  3212 pts/1    S+   18:50   0:00 bash ops5.sh
+django   1824841  0.0  0.1   9752  3448 pts/1    R+   18:50   0:00 ps aux
+- e USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.6 104352 12832 ?        Ss   Feb10   0:18 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    Feb10   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Feb10   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Feb10   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kworker/0:0H-kblockd]
+root           8  0.0  0.0      0     0 ?        I<   Feb10   0:00 [mm_percpu_wq]
+root           9  0.0  0.0      0     0 ?        S    Feb10   0:34 [ksoftirqd/0]
+root          10  0.0  0.0      0     0 ?        I    Feb10   5:54 [rcu_sched]
+root          11  0.0  0.0      0     0 ?        S    Feb10   0:07 [migration/0]
+root          12  0.0  0.0      0     0 ?        S    Feb10   0:00 [idle_inject/0]
+root          14  0.0  0.0      0     0 ?        S    Feb10   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    Feb10   0:00 [kdevtmpfs]
+root          16  0.0  0.0      0     0 ?        I<   Feb10   0:00 [netns]
+root          17  0.0  0.0      0     0 ?        S    Feb10   0:00 [rcu_tasks_kthre]
+root          18  0.0  0.0      0     0 ?        S    Feb10   0:00 [rcu_tasks_rude_]
+root          19  0.0  0.0      0     0 ?        S    Feb10   0:00 [rcu_tasks_trace]
+root          20  0.0  0.0      0     0 ?        S    Feb10   0:00 [kauditd]
+root          21  0.0  0.0      0     0 ?        S    Feb10   0:00 [khungtaskd]
+root          22  0.0  0.0      0     0 ?        S    Feb10   0:00 [oom_reaper]
+root          23  0.0  0.0      0     0 ?        I<   Feb10   0:00 [writeback]
+root          24  0.0  0.0      0     0 ?        S    Feb10   0:00 [kcompactd0]
+root          25  0.0  0.0      0     0 ?        SN   Feb10   0:00 [ksmd]
+root          26  0.0  0.0      0     0 ?        SN   Feb10   0:00 [khugepaged]
+root          72  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kintegrityd]
+root          73  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kblockd]
+root          74  0.0  0.0      0     0 ?        I<   Feb10   0:00 [blkcg_punt_bio]
+root          75  0.0  0.0      0     0 ?        I<   Feb10   0:00 [tpm_dev_wq]
+root          76  0.0  0.0      0     0 ?        I<   Feb10   0:00 [ata_sff]
+root          77  0.0  0.0      0     0 ?        I<   Feb10   0:00 [md]
+root          78  0.0  0.0      0     0 ?        I<   Feb10   0:00 [edac-poller]
+root          79  0.0  0.0      0     0 ?        I<   Feb10   0:00 [devfreq_wq]
+root          80  0.0  0.0      0     0 ?        S    Feb10   0:00 [watchdogd]
+root          82  0.0  0.0      0     0 ?        I<   Feb10   0:00 [pm_wq]
+root          84  0.0  0.0      0     0 ?        S    Feb10   0:00 [kswapd0]
+root          85  0.0  0.0      0     0 ?        S    Feb10   0:00 [ecryptfs-kthrea]
+root          87  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kthrotld]
+root          88  0.0  0.0      0     0 ?        I<   Feb10   0:00 [acpi_thermal_pm]
+root          89  0.0  0.0      0     0 ?        S    Feb10   0:00 [scsi_eh_0]
+root          90  0.0  0.0      0     0 ?        I<   Feb10   0:00 [scsi_tmf_0]
+root          91  0.0  0.0      0     0 ?        S    Feb10   0:00 [scsi_eh_1]
+root          92  0.0  0.0      0     0 ?        I<   Feb10   0:00 [scsi_tmf_1]
+root          94  0.0  0.0      0     0 ?        I<   Feb10   0:00 [vfio-irqfd-clea]
+root          96  0.0  0.0      0     0 ?        I<   Feb10   0:00 [ipv6_addrconf]
+root         105  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kstrp]
+root         108  0.0  0.0      0     0 ?        I<   Feb10   0:00 [zswap-shrink]
+root         109  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kworker/u3:0]
+root         114  0.0  0.0      0     0 ?        I<   Feb10   0:00 [charger_manager]
+root         154  0.0  0.0      0     0 ?        S    Feb10   0:00 [scsi_eh_2]
+root         158  0.0  0.0      0     0 ?        I<   Feb10   0:00 [scsi_tmf_2]
+root         160  0.0  0.0      0     0 ?        I<   Feb10   0:00 [cryptd]
+root         179  0.0  0.0      0     0 ?        I<   Feb10   0:06 [kworker/0:1H-kblockd]
+root         184  0.0  0.0      0     0 ?        S    Feb10   1:52 [irq/18-vmwgfx]
+root         194  0.0  0.0      0     0 ?        I<   Feb10   0:00 [ttm_swap]
+root         208  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kdmflush]
+root         234  0.0  0.0      0     0 ?        I<   Feb10   0:00 [raid5wq]
+root         278  0.0  0.0      0     0 ?        S    Feb10   0:01 [jbd2/dm-0-8]
+root         279  0.0  0.0      0     0 ?        I<   Feb10   0:00 [ext4-rsv-conver]
+root         350  0.0  0.8  52720 17880 ?        S<s  Feb10   0:01 /lib/systemd/systemd-journald
+root         377  0.0  0.2  22312  5508 ?        Ss   Feb10   0:01 /lib/systemd/systemd-udevd
+root         495  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kaluad]
+root         496  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kmpath_rdacd]
+root         497  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kmpathd]
+root         498  0.0  0.0      0     0 ?        I<   Feb10   0:00 [kmpath_handlerd]
+root         499  0.0  0.9 281072 18824 ?        SLsl Feb10   1:02 /sbin/multipathd -d -s
+root         511  0.0  0.0      0     0 ?        S    Feb10   0:00 [jbd2/sda2-8]
+root         512  0.0  0.0      0     0 ?        I<   Feb10   0:00 [ext4-rsv-conver]
+root         514  0.0  0.0      0     0 ?        S<   Feb10   0:00 [loop1]
+root         515  0.0  0.0      0     0 ?        S<   Feb10   0:00 [loop2]
+systemd+     543  0.0  0.3  91384  6636 ?        Ssl  Feb10   0:01 /lib/systemd/systemd-timesyncd
+systemd+     751  0.0  0.5  25100 12120 ?        Ss   Feb10   0:01 /lib/systemd/systemd-resolved
+root         789  0.0  0.1   5552  2640 ?        Ss   Feb10   0:01 /usr/sbin/cron -f
+message+     790  0.0  0.2   8804  5304 ?        Ss   Feb10   0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         801  0.0  0.7  26960 15468 ?        Ss   Feb10   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       803  0.0  0.2 221124  4628 ?        Ssl  Feb10   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         806  0.0  0.4  19040  9344 ?        Ss   Feb10   0:02 /lib/systemd/systemd-logind
+daemon       808  0.0  0.1   3776  2212 ?        Ss   Feb10   0:00 /usr/sbin/atd -f
+root         851  0.0  0.1   5976  3448 tty1     Ss   Feb10   0:00 /bin/login -p --
+root         860  0.0  0.2 233592  5732 ?        Ssl  Feb10   0:00 /usr/libexec/polkitd --no-debug
+root         869  0.0  0.8 105124 18120 ?        Ssl  Feb10   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+django      1310  0.0  0.4  19620 10060 ?        Ss   Feb10   0:00 /lib/systemd/systemd --user
+django      1311  0.0  0.1 104416  2944 ?        S    Feb10   0:00 (sd-pam)
+django      1317  0.0  0.2   7228  5100 tty1     S    Feb10   0:00 -bash
+root        2607  0.0  0.2  13068  5952 ?        Ss   Feb10   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+systemd+    2679  0.0  0.3  19816  6560 ?        Ss   Feb10   0:01 /lib/systemd/systemd-networkd
+root       39487  0.0  0.0      0     0 ?        S<   Feb11   0:00 [loop3]
+root       39741  0.0  0.0      0     0 ?        S<   Feb11   0:00 [loop4]
+root       39876  0.0  0.0      0     0 ?        S<   Feb11   0:00 [loop5]
+root      103356  0.0  0.3 247116  6832 ?        Ssl  Feb11   0:00 /usr/libexec/upowerd
+django    104113  0.0  0.0   2596   676 ?        S    Feb12   0:00 sh /home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/server.sh --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/django/.vscode-server/.8490d3dde47c57ba65ec40dd192d014fd2113496.token
+django    104120  0.2  5.9 1249020 120872 ?      Sl   Feb12  26:20 /home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/node /home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/out/vs/server/main.js --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/django/.vscode-server/.8490d3dde47c57ba65ec40dd192d014fd2113496.token
+root      121906  0.0  0.0      0     0 ?        S<   Feb12   0:00 [loop6]
+root      126057  0.0  0.2 236452  5696 ?        Ssl  Feb12   0:17 /usr/lib/accountsservice/accounts-daemon
+root      138099  0.0  0.0      0     0 ?        I<   Feb12   0:00 [xfsalloc]
+root      138100  0.0  0.0      0     0 ?        I<   Feb12   0:00 [xfs_mru_cache]
+root      138118  0.0  0.0      0     0 ?        S    Feb12   0:00 [jfsIO]
+root      138119  0.0  0.0      0     0 ?        S    Feb12   0:00 [jfsCommit]
+root      138120  0.0  0.0      0     0 ?        S    Feb12   0:00 [jfsSync]
+root      146443  0.0  2.1 1246796 42992 ?       Ssl  Feb12   0:42 /usr/lib/snapd/snapd
+django    652076  0.0  0.2   8228  5200 pts/6    Ss+  Feb16   0:00 /bin/bash
+root      661859  0.0  0.4  14796  8676 ?        Ss   Feb16   0:00 sshd: django [priv]
+django    661980  0.0  0.2  14928  5996 ?        S    Feb16   2:22 sshd: django@notty
+django    661981  0.0  0.1   7096  3700 ?        Ss   Feb16   0:00 -bash
+django    661986  0.0  0.1   7408  4024 ?        S    Feb16   0:01 bash
+django    662943  0.0  0.2   8228  5020 pts/7    Ss+  Feb16   0:00 /bin/bash
+django    663224  0.0  0.2   8360  5264 pts/8    Ss+  Feb16   0:00 /bin/bash
+django    663798  1.7  4.9 886580 101036 ?       Sl   Feb16 118:29 /home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/node /home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/out/vs/server/uriTransformer.js
+django    663805  0.0  1.8 786264 37520 ?        Sl   Feb16   0:09 /home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/node /home/django/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/out/bootstrap-fork --type=watcherService
+django   1425626  0.0  0.2   8460  5500 pts/1    Ss   Feb19   0:02 /bin/bash
+root     1769044  0.0  0.0      0     0 ?        I    13:18   0:16 [kworker/0:1-cgroup_destroy]
+root     1817341  0.0  0.0      0     0 ?        I    17:57   0:00 [kworker/u2:0-events_unbound]
+root     1820369  0.1  0.0      0     0 ?        I    18:14   0:02 [kworker/0:0-events]
+root     1823820  0.0  0.0      0     0 ?        I    18:38   0:00 [kworker/u2:1-events_unbound]
+root     1824429  0.0  0.0      0     0 ?        I    18:45   0:00 [kworker/u2:2-events_power_efficient]
+django   1824589  0.0  0.0   5480   740 ?        S    18:47   0:00 sleep 180
+django   1824870  0.0  0.0   9100  1080 tty1     S+   18:50   0:00 ping 9.9.9.9
+django   1824892  0.0  0.1   6880  3216 pts/1    S+   18:50   0:00 bash ops5.sh
+django   1824893  0.0  0.1   9752  3432 pts/1    R+   18:50   0:00 ps aux

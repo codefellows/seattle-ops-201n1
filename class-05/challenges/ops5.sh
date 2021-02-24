@@ -26,7 +26,7 @@ manage_procs() {
         echo -e "$ps"
         echo -e "\nFor reference, I've put the list of running process in $file"
         echo - e "$ps" >> "$file"
-        echo -e "\nPlease enter the PID youw want to kill\n"
+        echo -e "\nPlease enter the PID you want to kill\n"
         read -r PID
         kill -9 "$PID"
         
